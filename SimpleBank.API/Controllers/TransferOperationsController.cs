@@ -15,8 +15,6 @@ namespace SimpleBank.API.Controllers
 
         public TransferOperationsController(TransferMoneyApplicationService applicationService)
         {
-            //context.Database.EnsureCreated();
-
             this.applicationService = applicationService;
         }
 

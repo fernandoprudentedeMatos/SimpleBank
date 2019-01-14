@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace SimpleBank.API.Controllers
 {
     [Route("api/accounts")]
-    [AllowAnonymous]
+    [Authorize]
     public class AccountsController: Controller
     {
         private AccountApplicationService appService;
