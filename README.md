@@ -30,7 +30,7 @@ Teste Processo Seletivo Indra
   
 * Utilização do Token
 
-  * O token deve ser passado via Http Header. Parâmetro: (Authorization: Bearer <<token value>>)
+  * O token deve ser passado via Http Header. Parâmetro: (Authorization: Bearer tokenvalue )
 
 
 
