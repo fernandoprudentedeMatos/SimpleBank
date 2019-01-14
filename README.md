@@ -44,4 +44,5 @@ Peço desculpas por existirem tantas falhas que violaram regras de DDD e Microse
 4. Validation para ficar mais elegante, desacoplado, reutilizavel e eficiente, poderia utilizar Specification Pattern para escrita das regras. Além disso, seria melhor o domínio ser validado por completo e fazer uma lista com as validações identificadas.
 5. Alguns campos nas entidades deveriam ser readonly, mas para simplificar e não impactar o funcionamento do Entity, preferi deixar assim.
 6. Gostaria de ter aplicado Eventos
-6. Faltou Swagger para gerar uma visão melhor sobre os serviços da api
+7. Faltou Swagger para gerar uma visão melhor sobre os serviços da api
+8. Deveria de ter utilizado async, mas já que não estou tão familiarizado com o .Net Core e não saberia dizer quais surpresas viriam, preferi não inventar moda. rsrs
